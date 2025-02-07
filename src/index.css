@@ -1,0 +1,28 @@
+:root {
+  font-family: "DM Sans", serif;
+  background-color: white;
+  color: black;
+  --accent-color: #6B911B ;
+  
+ 
+}
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  /* padding:  0 112px; */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: light) {}
