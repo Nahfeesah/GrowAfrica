@@ -1,0 +1,31 @@
+.footer-links{
+    padding-top: 8px;
+}
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFFFFF;
+    gap: 104px;
+
+}
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    color: #FFFFFF;
+    height: 24px;
+}
+@media (max-width: 768px) {
+    .copyright{
+        display: block;
+        gap: 0px;
+        padding-top: 20px;
+    }
+   .social-icons{
+    padding: 20px 0;
+    height: auto ;
+    justify-content: start;
+   }
+}
