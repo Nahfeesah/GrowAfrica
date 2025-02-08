@@ -2,7 +2,7 @@ import { Box, Flex, Image, Button, Heading, Text, SimpleGrid, Card, Link } from 
 import React from 'react'
 import './Hero.css'
 import Tractor from '../../assets/img/tractor.jpg'
-import vector from '../../assets/img/vector.png'
+import vector from '../../assets/img/Vector.png'
 import leaf from '../../assets/img/leaf.png'
 import harvest from '../../assets/img/harvest.jpg'
 import signup from '../../assets/img/sign-up.jpg'
