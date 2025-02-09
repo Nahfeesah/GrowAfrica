@@ -22,7 +22,7 @@ export default function About() {
         <>
             <Navbar />
             <PageTitle title="About Us" />
-            <Box h={{ base: "auto", md: "634px"}} display={{base: "block", md: "flex"}} justifyContent={"center"} alignItems={"center"}>
+            <Box h={{ base: "auto", md: "634px"}} display={{base: "block", md: "flex"}} justifyContent={"center"} alignItems={"center"} pt={{base: "40px", md: "0"}}>
                 <Box display={{base: "block", md: "grid"}} gridTemplateColumns={{ base: "1fr", md: "1fr 1fr"}} gap={"73px"}>
                     <Box pl={{base: "20px", md: "100px"}} pr={{base: "20px", md: "0px"}} display={"flex"} justifyContent={"center"} alignItems={"center"} h={"560px"}>
                         <Box color={"var(--accent-color)"}>
@@ -33,8 +33,8 @@ export default function About() {
                         </Box>
 
                     </Box >
-                    <Box pr={{ base: "20px", md: "100px" }} pt={{ base: "50px", md: "0" }}>
-                        <Image src={istock8} w={"466px"} h={"500px"} borderRadius={"32px"}  />
+                    <Box pr={{ base: "20px", md: "100px" }} pt={{ base: "50px", md: "0" }} pl={{ base: "20px", md: "0px" }} >
+                        <Image src={istock8} w={"466px"} h={"500px"} borderRadius={"32px"} />
                     </Box>
                 </Box>
 
@@ -43,14 +43,14 @@ export default function About() {
                
                 <Image src={leaf} position={"absolute"} top={0} right={0} w={257} rotate={90} />
                 
-                <Box display={{ base: "block", md: "grid" }} gridTemplateColumns={{ base: "1fr", md: "1fr 1fr" }} gap={"73px"}>
-                    <Box pl={{ base: "20px", md: "100px" }} pt={{ base: "50px", md: "0" }}>
+                <Box display={ "grid" } gridTemplateColumns={{ base: "1fr", md: "1fr 1fr" }} gap={"73px"}>
+                    <Box pl={{ base: "20px", md: "100px" }} pt={{ base: "30px", md: "0" }} pr={{ base: "20px", md: "0px" }} order={{ base: "2", md: "1" }}>
                         <Image src={womanMarket} w={"466px"} h={"500px"} borderRadius={"32px"} />
                     </Box>
 
-                    <Box pr={{ base: "20px", md: "100px" }} pl={{ base: "20px", md: "0px" }} display={"flex"} justifyContent={"center"} alignItems={"center"} h={"560px"}>
+                    <Box pr={{ base: "20px", md: "100px" }} pl={{ base: "20px", md: "0px" }} display={"flex"} justifyContent={"center"} alignItems={"center"} h={{base:"auto", md:"560px"}} pt={{ base: "70px", md: "0" }}>
                         <Box color={"var(--accent-color)"}>
-                            <Heading fontWeight={600} fontSize={"36px"} lineHeight={"30px"} pb={"36px"}>Meet Cosmos AgriTech </Heading>
+                            <Text fontWeight={600} fontSize={"36px"} lineHeight={"30px"} pb={"36px"}>Meet Cosmos AgriTech </Text>
                             <Text color={"#060606"} fontSize={"24px"} fontWeight={500} pb={"8px"}>"WHO WE ARE"</Text>
                             <Text color={"#9B9D8E"} fontSize={"18px"}>Cosmos Agritech connects investors with smallholder farmers, driving food security and sustainable growth through impactful agricultural investments.</Text>
                             <Text color={"#060606"} fontSize={"24px"} fontWeight={500} pb={"8px"} pt={"36px"}>"WHAT WE DO"</Text>
@@ -59,7 +59,7 @@ export default function About() {
                     </Box >
                 </Box>
             </Box>
-            <Box p={{ base: "30px 20px", md: "80px 100px" }}>
+            <Box p={{ base: "50px 20px", md: "80px 100px" }}>
                 <Box >
                     <Heading2 text={"Mission"} />
                     <Box display={{ base: "block", md: "flex" }} justifyContent={"space-between"}>

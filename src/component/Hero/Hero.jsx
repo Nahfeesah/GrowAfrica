@@ -43,7 +43,7 @@ export default function Hero() {
                             <h1 className='hero-title'>Funding Farmers, Harvesting Hope for the Future</h1>
                             <p className='hero-description'>Join thousands of investors funding Nigeria’s agricultural
                                 growth while earning sustainable returns</p>
-                            <Button className='hero-btn'><Link href="./signup" color={"#fff"}>Begin Your Investment Journey Today</Link> </Button>
+                            <Button className='hero-btn'><Link to="/signup" color={"#fff"}>Begin Your Investment Journey Today</Link> </Button>
                         </div>
                     </div>
                 </Box>

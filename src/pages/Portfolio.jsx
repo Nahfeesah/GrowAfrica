@@ -54,7 +54,7 @@ export default function Porfolio() {
             </Box>
 
             <Box position={"relative"} h={{ base: "auto", md: "743px" }} p={{ base: "30px 20px", md: "80px 100px" }} bg={"#FCFFF5"}>
-                <Image src={leaf} position={"absolute"} top={0} right={0} w={"257px"} rotate={90} />
+                <Image src={leaf} position={"absolute"} top={0} right={0} w={"257px"} rotate={90} p={0}/>
                 <Box>
                     <Heading2 text={"Current Investment Opportunities"} />
                     <Box display={{ base: "block", md: "flex" }} justifyContent={"space-between"} >
@@ -131,7 +131,7 @@ export default function Porfolio() {
                         </Box>
 
                     </Box >
-                    <Box pr={{ base: "20px", md: "100px" }} pt={{ base: "50px", md: "0" }}>
+                    <Box pr={{ base: "20px", md: "100px" }} pt={{ base: "50px", md: "0" }} pl={{base: "20px", md: "0px"}}>
                         <Image src={stock4} w={"529px"} h={"560px"} borderRadius={"32px"}  />
                     </Box>
                 </Box>

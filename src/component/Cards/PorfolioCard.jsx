@@ -1,7 +1,8 @@
-import { Box, Icon, Image, Text } from '@chakra-ui/react'
+import { Box, Image, Text } from '@chakra-ui/react'
+import { Icon } from 'lucide-react'
 import React from 'react'
 
-function PorfolioCard(props) {
+const PorfolioCard = (props) =>{
   return (
     <>
        <Box>
@@ -15,4 +16,8 @@ function PorfolioCard(props) {
   )
 }
 
+
+
+
 export default PorfolioCard
+

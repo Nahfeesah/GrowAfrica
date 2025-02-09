@@ -12,6 +12,7 @@ import Login from './pages/Login'
 import ForgotPassword from './pages/ForgotPassword'
 import ChangePassword from './pages/ChangePassword'
 import OTPPassword from './pages/OTPPassword'
+import Admin from './Dashboard/Admin'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -31,6 +32,8 @@ function App() {
         <Route path="/forgotpassword" element={<ForgotPassword />}/>
         <Route path="/changepassword" element={<ChangePassword />}/>
         <Route path="/otppassword" element={<OTPPassword />}/>
+        <Route path="/admin" element={<Admin />}/>
+
       </Routes>
     </>
   )

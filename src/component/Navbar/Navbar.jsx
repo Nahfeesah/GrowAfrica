@@ -22,7 +22,7 @@ const NavLinks = () => (
   <>
    
     <Link to="/home" color={"black"}>Home</Link>
-    <Link to="/about" color={"black"}>About Us</Link>
+    <Link to="/about" color={"black"}>About Me</Link>
     <Link to="/portfolio" color={"black"}>Portfolio</Link>
     <Link to="/Testimonials" color={"black"}>Testimonials</Link>
     <Link to="/contact" color={"black"}>Contact Us</Link>
@@ -31,8 +31,8 @@ const NavLinks = () => (
   )
   const NavButtons = () => (
     <>
-      <Button className='nav-btn' color={'var(--accent-color)'}><a href="./Login">Login</a></Button>
-      <Button className='nav-btn' color='#fff' bg={'var(--accent-color)'}><a href="./signup">Sign Up</a></Button>
+      <Button className='nav-btn' color={'var(--accent-color)'}><Link to="/Login">Login</Link></Button>
+      <Button className='nav-btn' color='#fff' bg={'var(--accent-color)'}><Link to="/signup">Sign Up</Link></Button>
     </>
 )
   const NavButton = () => (
