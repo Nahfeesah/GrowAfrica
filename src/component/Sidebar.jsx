@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import logo from '../assets/img/growLogo.svg'
-import { Box, Image,Button } from '@chakra-ui/react';
+import { Box, Image,Button, Text } from '@chakra-ui/react';
 import {
     DrawerActionTrigger,
     DrawerBackdrop,
@@ -15,16 +15,35 @@ import {
     DrawerTrigger,
 } from "@/components/ui/drawer"
 import { BarChart, Landmark } from 'lucide-react';
+import { 
+    MdOutlineDashboardCustomize, 
+    MdOutlineLibraryBooks, 
+    MdOutlinePeople } from 'react-icons/md';
+import { LuBookText } from 'react-icons/lu';
 
 
 const SIDEBAR_ITEMS = [
-    {name:"Overview", icon:BarChart},
-    {name:"Investment", icon:Landmark}
+    // {name:"Dashboard", icon:MdOutlineDashboardCustomize, path:"/admin"},
+    // { name: "User Management", icon:MdOutlinePeople, path:"/userMgt"},
+    // { name: "Projects", icon:LuBookText, path:"/projects"},    
+    // {name:"Investments", icon:Landmark, path:"/investment"},
+    // { name: "Report", icon:LuChartSpline, path:"/reports"},
+    // { name: "Security", icon:BsShieldLock, path:"/security"},
+    // {name:"Audit Log", icon:MdOutlineLibraryBooks, path:"/audit"},
+    // { name: "Settings", icon: GoGear, path:"/settings"},
+  
 ]
 const Sidebar = () => {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isSidebarOpen, setIsSidebarOpen] = useState(true);
     return (
         <>
+            <Box h={full} w={"250px"} >
+                <Box display={"flex"} direction={"flex-column"}>
+                    <Text>Menu</Text>
+
+                </Box>
+
+            </Box>
             <Box padding={"24px"}>
                 <Image src={logo} padding={"10px"} w={{ base: "50px", md: "150px" }} />
                 <BarChart/>

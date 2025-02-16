@@ -44,11 +44,11 @@ export default function About() {
                 <Image src={leaf} position={"absolute"} top={0} right={0} w={257} rotate={90} />
                 
                 <Box display={ "grid" } gridTemplateColumns={{ base: "1fr", md: "1fr 1fr" }} gap={"73px"}>
-                    <Box pl={{ base: "20px", md: "100px" }} pt={{ base: "30px", md: "0" }} pr={{ base: "20px", md: "0px" }} order={{ base: "2", md: "1" }}>
+                    <Box pl={{ base: "20px", md: "0px" }} pt={{ base: "30px", md: "0" }} pr={{ base: "20px", md: "0px" }} order={{ base: "2", md: "1" }}>
                         <Image src={womanMarket} w={"466px"} h={"500px"} borderRadius={"32px"} />
                     </Box>
 
-                    <Box pr={{ base: "20px", md: "100px" }} pl={{ base: "20px", md: "0px" }} display={"flex"} justifyContent={"center"} alignItems={"center"} h={{base:"auto", md:"560px"}} pt={{ base: "70px", md: "0" }}>
+                    <Box pr={{ base: "20px", md: "0px" }} pl={{ base: "20px", md: "100px" }} display={"flex"} justifyContent={"center"} alignItems={"center"} h={{base:"auto", md:"560px"}} pt={{ base: "70px", md: "0" }}>
                         <Box color={"var(--accent-color)"}>
                             <Text fontWeight={600} fontSize={"36px"} lineHeight={"30px"} pb={"36px"}>Meet Cosmos AgriTech </Text>
                             <Text color={"#060606"} fontSize={"24px"} fontWeight={500} pb={"8px"}>"WHO WE ARE"</Text>

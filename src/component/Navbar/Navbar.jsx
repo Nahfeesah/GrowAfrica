@@ -1,9 +1,10 @@
-import { Box, Button, Flex, Stack } from '@chakra-ui/react'
+import { Box, Button, Flex, Stack, Image } from '@chakra-ui/react'
 import React from 'react'
 import {Link} from 'react-router-dom'
 import './Navbar.css'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { useState } from 'react'
+import logo from '../../assets/img/growLogo.svg'
 import {
   DrawerBackdrop,
   DrawerBody,
@@ -51,7 +52,8 @@ function Navbar() {
     <>
         <Flex as="header"  justify="space-between" align="center" className='navbar'>
           <Box>
-                <h1 className='logo'><a href="">Cosmos</a></h1>
+            <Image src={logo}/>
+                {/* <h1 className='logo'><a href="">Cosmos</a></h1> */}
           </Box>
           <Flex  display={{ base: "none", lg: "flex" }} gap="32px" className="nav-list">   
             <NavLinks />

@@ -7,7 +7,12 @@ import videoImage from '../assets/img/VideoImage.png'
 import Testbox from '@/component/Testbox/Testbox'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
-
+import Investor1 from "../assets/img/Investor1.png"
+import Investor2 from "../assets/img/Investor2.png"
+import Investor3 from "../assets/img/Investor3.png"
+import Investor4 from "../assets/img/Investor4.png"
+import woman from "../assets/img/woman.png"
+import gardener1 from "../assets/img/gardener1.jpg"
 
 
 
@@ -18,8 +23,9 @@ export default function Testimonials() {
             <Navbar />
 
             <Box display={"flex"} justifyContent={"center"} alignItems={"center"} h={"auto"} px={{"base": "20px", md: "0px"}} pt={{base: "200px", md: "150px"}}>
+                
                 <Box>
-                    <Text as={"h2"} fontSize={{ base: "40px", md: "60px", lg: "80px" }} lineHeight={{base: "48px",md:"78px"}} fontWeight={600} textAlign={"center"} w={{ base: "auto", md: "790px" }}>Read what happy investors are saying</Text>
+                    <Text as={"h2"} fontSize={{ base: "40px", md: "60px", lg: "80px" }} lineHeight={{base: "48px",md:"78px"}} fontWeight={600} textAlign={"center"} w={{ base: "auto", md: "790px" }} color={"#000000"}>Read what happy investors are saying</Text>
                     <Text as={"p"} fontSize={"18px"} lineHeight={"28px"} fontWeight={500} textAlign={"center"} color={"#00000080"} w={{base: "auto", md: "450px"}} pt={"40px"} mx={"auto"}>Join thousands of investors funding Nigeria’s agricultural
                     growth while earning sustainable returns</Text>
 
@@ -30,7 +36,7 @@ export default function Testimonials() {
             <Grid templateColumns={{ base: "repeat(1, 1fr)", md: "repeat(3, 1fr)" }} px={{base: "20px", md: "100px"}} py={"50px"} rowGap={"40px"}>
                 <Box >
                     <Testbox
-                    img={videoImage}
+                    img={Investor3}
                     name={"John Doe"}
                     title={"Farmer"}
                     bg={"#4F6F0D"}
@@ -44,7 +50,7 @@ export default function Testimonials() {
                 </Box>
                 <Box mb={"10px"}>
                     <Testbox
-                    img={videoImage}
+                    img={Investor2}
                     name={"John Doe"}
                     title={"Farmer"}
                     bg={"#D6A22F"}
@@ -58,7 +64,7 @@ export default function Testimonials() {
                 </Box>
                 <Box>
                     <Testbox
-                    img={videoImage}
+                    img={Investor1}
                     name={"John Doe"}
                     title={"Farmer"}
                     bg={"#82AC2A"}
@@ -72,7 +78,7 @@ export default function Testimonials() {
                 </Box>
                 <Box>
                     <Testbox
-                        img={videoImage}
+                        img={Investor4}
                         name={"John Doe"}
                         title={"Farmer"}
                         bg={"#82AC2A"}
@@ -86,7 +92,7 @@ export default function Testimonials() {
                 </Box>
                 <Box>
                     <Testbox
-                        img={videoImage}
+                        img={woman}
                         name={"John Doe"}
                         title={"Farmer"}
                         bg={"#4F6F0D"}
@@ -100,7 +106,7 @@ export default function Testimonials() {
                 </Box>
                 <Box>
                     <Testbox
-                        img={videoImage}
+                        img={gardener1}
                         name={"John Doe"}
                         title={"Farmer"}
                         bg={"#D6A22F"}

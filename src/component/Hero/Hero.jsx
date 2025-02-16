@@ -99,7 +99,7 @@ export default function Hero() {
             </Box>
             <Box h={{base:"auto", md: "700px"}} borderBottom={"1px solid #E3E3E3"}>
                 <Box className='testimonial'>
-                    <div className='overla'></div>
+                    
                     <Box className='testimonial-title'>
                         <Text fontWeight={600} fontSize={"36px"} lineHeight={"46.87px"
                         } pb={"10px"}>Testimonial</Text>
